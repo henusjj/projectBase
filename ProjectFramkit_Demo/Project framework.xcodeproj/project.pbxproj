@@ -112,6 +112,7 @@
 		45BEA924234DEBF80067AD83 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A5626E233DF5DC00791F2C /* RootViewController.m */; };
 		57FBC82706A5924E52D58BC7 /* Pods_Project_frameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF32CF0C936BC6E76319DD05 /* Pods_Project_frameworkTests.framework */; };
 		657920854BFCA425048D040A /* Pods_Project_frameworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF41E843DE4BFF637885D1 /* Pods_Project_frameworkUITests.framework */; };
+		B48E3B662359B84600406D39 /* UIsearchControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E3B652359B84600406D39 /* UIsearchControllerDemo.m */; };
 		F39734E62EA2C1B2FD474DC6 /* Pods_Project_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60D0EA29026688B599A8EE /* Pods_Project_framework.framework */; };
 /* End PBXBuildFile section */
 
@@ -355,6 +356,8 @@
 		45ABC08B23457F0B0047BE88 /* UserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManager.m; sourceTree = "<group>"; };
 		94F281F4D07BB05300F27CCF /* Pods-Project frameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-Project frameworkTests/Pods-Project frameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BC72B482349EF2806926646 /* Pods-Project framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project framework.release.xcconfig"; path = "Target Support Files/Pods-Project framework/Pods-Project framework.release.xcconfig"; sourceTree = "<group>"; };
+		B48E3B642359B84600406D39 /* UIsearchControllerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIsearchControllerDemo.h; sourceTree = "<group>"; };
+		B48E3B652359B84600406D39 /* UIsearchControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIsearchControllerDemo.m; sourceTree = "<group>"; };
 		C30B932074FA6F02DD821C2B /* Pods-Project frameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkTests.release.xcconfig"; path = "Target Support Files/Pods-Project frameworkTests/Pods-Project frameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		C59526A5AFF058A37002D2D6 /* Pods-Project frameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkUITests.release.xcconfig"; path = "Target Support Files/Pods-Project frameworkUITests/Pods-Project frameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D84C080ECF9FC20E60E32CCE /* Pods-Project frameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-Project frameworkUITests/Pods-Project frameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -563,6 +566,7 @@
 		45A56256233DBCA800791F2C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				B48E3B632359B82D00406D39 /* Demo */,
 				45A5637E233E130300791F2C /* Main.storyboard */,
 				45A56258233DBCA800791F2C /* main.m */,
 				45A563972341982F00791F2C /* ViewController11.h */,
@@ -917,6 +921,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B48E3B632359B82D00406D39 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B48E3B642359B84600406D39 /* UIsearchControllerDemo.h */,
+				B48E3B652359B84600406D39 /* UIsearchControllerDemo.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1232,6 +1245,7 @@
 				45A56337233E06C300791F2C /* YYWebImageOperation.m in Sources */,
 				45A5636C233E06C300791F2C /* YYWeakProxy.m in Sources */,
 				45A5636D233E06C300791F2C /* YYAsyncLayer.m in Sources */,
+				B48E3B662359B84600406D39 /* UIsearchControllerDemo.m in Sources */,
 				45A56355233E06C300791F2C /* UIScreen+YYAdd.m in Sources */,
 				45A56331233E06C300791F2C /* _YYWebImageSetter.m in Sources */,
 				45A56366233E06C300791F2C /* NSString+YYAdd.m in Sources */,

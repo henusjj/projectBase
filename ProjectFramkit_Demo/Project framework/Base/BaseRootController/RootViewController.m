@@ -44,14 +44,10 @@
 //   ios 13黑夜模式--2.info.plist删除多屏
         if (@available(iOS 13.0, *)) {
             [UIApplication sharedApplication].keyWindow.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
-        }else {
-        if (@available(iOS 13.0, *)) {
+            //    ios 13 模态弹出默认交互改变-修改成全屏模式
+            self.modalPresentationStyle=UIModalPresentationFullScreen;
             [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        }
-    }
-//    ios 13 模态弹出默认交互改变-修改成全屏模式
-    self.modalPresentationStyle=UIModalPresentationFullScreen;
-
+            }
 
 }
 
@@ -158,11 +154,11 @@
 }
 
 -(void)headerRerefsh{
-    
+    [self.tableview.mj_header endRefreshing];
 }
 
 -(void)footerRerefsh{
-    
+    [self.tableview.mj_footer endRefreshing];
 }
 /**
  * 添加无数据界面
