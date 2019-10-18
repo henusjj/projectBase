@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  Project framework
+//
+//  Created by GuoYanjun on 2019/9/27.
+//  Copyright © 2019年 ZXY. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//第三方库
+#import "ThridHeader.h"
+
+//全局颜色
+#import "UnifiedColor.h"
+
+//机型size适配
+#import "IphoneSize.h"
+
+//系统+i自定义宏
+#import "UserManger.h"
+
+//单例k快速创建
+/**
+ * 使用方法， 在.h 文件  LFYSingletonH
+ *在.m文件 中           LFYSingletonM
+ 
+ */
+#import "LFYSingleton.h"
+
+
+
+#endif /* PrefixHeader_pch */

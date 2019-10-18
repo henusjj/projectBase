@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Project framework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Project framework
+
+  target 'Project frameworkTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Project frameworkUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  pod 'Masonry'
+  pod 'SDWebImage', '~>3.8'
+  pod 'AFNetworking'
+  # 与H5 交互
+   pod 'WebViewJavascriptBridge'
+   pod 'Toast'
+   pod 'MJRefresh'
+   
+   pod 'CYLTabBarController','~> 1.17.4'
+
+   pod'IQKeyboardManager'
+end
