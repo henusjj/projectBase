@@ -28,7 +28,7 @@
 //动态更新状态栏颜色
 -(void)setStatusBarStyle:(UIStatusBarStyle)StatusBarStyle{
     _StatusBarStyle=StatusBarStyle;
-    [self setNeedsStatusBarAppearanceUpdate];
+//    [self setNeedsStatusBarAppearanceUpdate];
 }
 
 - (void)viewDidLoad {
@@ -41,13 +41,29 @@
 //    self.automaticallyAdjustsScrollViewInsets = NO;
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
-//   ios 13黑夜模式--2.info.plist删除多屏
-        if (@available(iOS 13.0, *)) {
-            [UIApplication sharedApplication].keyWindow.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
-            //    ios 13 模态弹出默认交互改变-修改成全屏模式
-            self.modalPresentationStyle=UIModalPresentationFullScreen;
-            [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-            }
+    
+    //    统一适配ios 13
+    BOOL DarkMode = false;
+    if (@available(iOS 13.0, *)) {
+        if (UITraitCollection.currentTraitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
+            DarkMode = YES;
+        }else {
+            DarkMode = NO;
+        }
+    }
+    if (@available(iOS 13.0, *)) {
+        if (DarkMode) {
+            [UIApplication sharedApplication].delegate.window.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+            [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDarkContent;
+        }else{
+            [UIApplication sharedApplication].delegate.window.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+            [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDarkContent;
+        }
+        //ios 13 模态弹出默认交互改变-修改成全屏模式
+        self.modalPresentationStyle=UIModalPresentationFullScreen;
+    }
+
+    
 
 }
 
@@ -184,7 +200,7 @@
     return [UIImage imageNamed:@"emptyView_noData_bgimg"];
 }
 - (UIColor *)backgroundColorForEmptyDataSet:(UIScrollView *)scrollView {
-    return [UIColor whiteColor];
+    return [UIColor redColor];
 }
 
 - (CGFloat)verticalOffsetForEmptyDataSet:(UIScrollView *)scrollView {

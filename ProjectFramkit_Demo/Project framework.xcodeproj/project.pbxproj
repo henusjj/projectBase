@@ -112,7 +112,11 @@
 		45BEA924234DEBF80067AD83 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A5626E233DF5DC00791F2C /* RootViewController.m */; };
 		57FBC82706A5924E52D58BC7 /* Pods_Project_frameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF32CF0C936BC6E76319DD05 /* Pods_Project_frameworkTests.framework */; };
 		657920854BFCA425048D040A /* Pods_Project_frameworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF41E843DE4BFF637885D1 /* Pods_Project_frameworkUITests.framework */; };
+		B4687DCF2361823F00208869 /* UIControl+PQ_EventExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4687DCE2361823F00208869 /* UIControl+PQ_EventExtension.m */; };
+		B4687DD32361827100208869 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = B4687DD12361827100208869 /* UIButton+ImageTitleSpacing.m */; };
 		B48E3B662359B84600406D39 /* UIsearchControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E3B652359B84600406D39 /* UIsearchControllerDemo.m */; };
+		B48E3B69235D7F1300406D39 /* ButtonDelayTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E3B68235D7F1300406D39 /* ButtonDelayTimeController.m */; };
+		B48E3B6C235D847800406D39 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E3B6B235D847800406D39 /* TableViewController.m */; };
 		F39734E62EA2C1B2FD474DC6 /* Pods_Project_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60D0EA29026688B599A8EE /* Pods_Project_framework.framework */; };
 /* End PBXBuildFile section */
 
@@ -356,8 +360,16 @@
 		45ABC08B23457F0B0047BE88 /* UserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManager.m; sourceTree = "<group>"; };
 		94F281F4D07BB05300F27CCF /* Pods-Project frameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-Project frameworkTests/Pods-Project frameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BC72B482349EF2806926646 /* Pods-Project framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project framework.release.xcconfig"; path = "Target Support Files/Pods-Project framework/Pods-Project framework.release.xcconfig"; sourceTree = "<group>"; };
+		B4687DCD2361823F00208869 /* UIControl+PQ_EventExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PQ_EventExtension.h"; sourceTree = "<group>"; };
+		B4687DCE2361823F00208869 /* UIControl+PQ_EventExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PQ_EventExtension.m"; sourceTree = "<group>"; };
+		B4687DD12361827100208869 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		B4687DD22361827100208869 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		B48E3B642359B84600406D39 /* UIsearchControllerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIsearchControllerDemo.h; sourceTree = "<group>"; };
 		B48E3B652359B84600406D39 /* UIsearchControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIsearchControllerDemo.m; sourceTree = "<group>"; };
+		B48E3B67235D7F1300406D39 /* ButtonDelayTimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonDelayTimeController.h; sourceTree = "<group>"; };
+		B48E3B68235D7F1300406D39 /* ButtonDelayTimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonDelayTimeController.m; sourceTree = "<group>"; };
+		B48E3B6A235D847800406D39 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B48E3B6B235D847800406D39 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C30B932074FA6F02DD821C2B /* Pods-Project frameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkTests.release.xcconfig"; path = "Target Support Files/Pods-Project frameworkTests/Pods-Project frameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		C59526A5AFF058A37002D2D6 /* Pods-Project frameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkUITests.release.xcconfig"; path = "Target Support Files/Pods-Project frameworkUITests/Pods-Project frameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D84C080ECF9FC20E60E32CCE /* Pods-Project frameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project frameworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-Project frameworkUITests/Pods-Project frameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -462,6 +474,8 @@
 		45A56249233DBC3600791F2C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				B4687DD02361825E00208869 /* CustomButtonStyle */,
+				B4687DCC2361823F00208869 /* delayEventTime */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -921,11 +935,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B4687DCC2361823F00208869 /* delayEventTime */ = {
+			isa = PBXGroup;
+			children = (
+				B4687DCD2361823F00208869 /* UIControl+PQ_EventExtension.h */,
+				B4687DCE2361823F00208869 /* UIControl+PQ_EventExtension.m */,
+			);
+			path = delayEventTime;
+			sourceTree = "<group>";
+		};
+		B4687DD02361825E00208869 /* CustomButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B4687DD22361827100208869 /* UIButton+ImageTitleSpacing.h */,
+				B4687DD12361827100208869 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = CustomButtonStyle;
+			sourceTree = "<group>";
+		};
 		B48E3B632359B82D00406D39 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				B48E3B642359B84600406D39 /* UIsearchControllerDemo.h */,
 				B48E3B652359B84600406D39 /* UIsearchControllerDemo.m */,
+				B48E3B6A235D847800406D39 /* TableViewController.h */,
+				B48E3B6B235D847800406D39 /* TableViewController.m */,
+				B48E3B67235D7F1300406D39 /* ButtonDelayTimeController.h */,
+				B48E3B68235D7F1300406D39 /* ButtonDelayTimeController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1168,11 +1204,13 @@
 				45A56348233E06C300791F2C /* YYTextParser.m in Sources */,
 				45A56376233E06C300791F2C /* YYThreadSafeArray.m in Sources */,
 				45A5632A233E06C300791F2C /* YYMemoryCache.m in Sources */,
+				B48E3B6C235D847800406D39 /* TableViewController.m in Sources */,
 				45A56340233E06C300791F2C /* YYTextLine.m in Sources */,
 				45A56335233E06C300791F2C /* CALayer+YYWebImage.m in Sources */,
 				45A56329233E06C300791F2C /* YYKVStorage.m in Sources */,
 				45A56267233DEC6C00791F2C /* RootNavigationController.m in Sources */,
 				45A56356233E06C300791F2C /* UIView+YYAdd.m in Sources */,
+				B4687DCF2361823F00208869 /* UIControl+PQ_EventExtension.m in Sources */,
 				45A56352233E06C300791F2C /* UIApplication+YYAdd.m in Sources */,
 				45A5639A23419E9E00791F2C /* ViewController11.m in Sources */,
 				45A5632E233E06C300791F2C /* YYImage.m in Sources */,
@@ -1201,6 +1239,7 @@
 				45A56332233E06C300791F2C /* UIButton+YYWebImage.m in Sources */,
 				45A5636B233E06C300791F2C /* CALayer+YYAdd.m in Sources */,
 				45A56362233E06C300791F2C /* NSKeyedUnarchiver+YYAdd.m in Sources */,
+				B4687DD32361827100208869 /* UIButton+ImageTitleSpacing.m in Sources */,
 				45A56343233E06C300791F2C /* YYTextDebugOption.m in Sources */,
 				45A563A32341AAD600791F2C /* RootWebViewController.m in Sources */,
 				45A56333233E06C300791F2C /* UIImageView+YYWebImage.m in Sources */,
@@ -1240,6 +1279,7 @@
 				45A5635E233E06C300791F2C /* NSBundle+YYAdd.m in Sources */,
 				45A5633D233E06C300791F2C /* YYTextEffectWindow.m in Sources */,
 				45A563A22341AAD600791F2C /* XLWebViewController.m in Sources */,
+				B48E3B69235D7F1300406D39 /* ButtonDelayTimeController.m in Sources */,
 				45A563902340B2B700791F2C /* PPNetworkCache.m in Sources */,
 				45A5632B233E06C300791F2C /* YYImageCache.m in Sources */,
 				45A56337233E06C300791F2C /* YYWebImageOperation.m in Sources */,

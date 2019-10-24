@@ -18,7 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [self initWithRootView];
-    
+    [self initThirdLibKeyBoard];
+    [self monitorNetworkStatus];
     return YES;
 }
 
